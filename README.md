@@ -9,7 +9,7 @@ This repository houses an open-source template for creating papers and technical
 This template is built with [MyST](https://mystmd.org/). To get started, first clone the repository:
 
 ```sh
-git clone https://github.com/elaraproject/2024-research-report
+git clone https://github.com/elaraproject/elara-paper-template
 ```
 
 Ensure you have [Python](https://www.python.org/) and [pip](https://pypi.org/project/pip/) installed. Then install MyST with:
