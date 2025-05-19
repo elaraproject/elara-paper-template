@@ -28,6 +28,9 @@ project:
   # github: https://github.com/elaraproject/<SOME_REPO>
   # Set the date of writing here
   # date: <CURRENT_DATE>
+  # Set files you want to exclude
+  exclude:
+  - README.md
   exports:
   - format: pdf
     article: paper/index.md
