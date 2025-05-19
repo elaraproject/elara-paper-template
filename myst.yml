@@ -1,0 +1,66 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  # Set your title and subtitle for the paper
+  title: "A new paper"
+  subtitle: "A subtitle for a new paper"
+  # Note: all Project Elara content is always public-domain licensed
+  license: Unlicense
+  # Set any relevant keywords
+  keywords: ["space", "space-based solar power", "space technologies", "open science"]
+  # Change the subject based on type (report, paper, etc.)
+  subject: Report
+  data_availability: "All data is available at https://github.com/elaraproject/elara-labs"
+  # Set paper authors here
+  authors: 
+    - name: "Jacky Song"
+      orcid: 0009-0006-3463-8469
+      affiliation: rpi
+      github: songtech-0912
+      url: "https://songtech-0912.github.io"
+  affiliations:
+    - id: rpi
+      institution: Rensselaer Polytechnic Institute
+      ror: https://ror.org/01rtyzb94
+      isni: 0000 0001 2160 9198
+  open_access: true
+  # Set the github URL of the paper here
+  # github: https://github.com/elaraproject/<SOME_REPO>
+  # Set the date of writing here
+  # date: <CURRENT_DATE>
+  exports:
+  - format: pdf
+    article: paper/index.md
+    template: lapreprint
+    # Set your output PDF name here
+    output: public/my_paper.pdf
+    id: pdf-export
+  # If you need an appendix exported, you can add it here
+  # - format: pdf
+  #   article: paper/appendices.md
+  #   template: lapreprint
+  #  # Set your appendix's output PDF name
+  #  # here
+  #  output: public/<APPENDIX_NAME>.pdf
+  #  id: appendix-export
+  downloads:
+    - id: pdf-export
+      title: Download PDF
+    # Only if you need an appendix
+    # - id: appendix-export
+    #   title: Download Appendix
+  # You can use the provided banner
+  # or replace it with a custom banner
+  # image
+  banner: assets/banner.png
+ 
+site:
+  template: article-theme
+  options:
+    logo: assets/project-logo.svg
+    logo_dark: assets/project-logo.svg
+    # Set your paper name
+    logo_text: "Your paper"
+    hide_footer_links: true
+    hide_toc: true
+    favicon: assets/favicon.ico
