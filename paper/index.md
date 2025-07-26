@@ -10,6 +10,10 @@ bibliography:
 Your abstract goes here.
 +++
 
+```{warning}
+**IMPORTANT:** Project Elara has switched over to the open-source forge [Codeberg](https://codeberg.org/). The Project Elara repositories have been moved to [this Codeberg page](https://codeberg.org/elaraproject/). **This paper template is no longer maintained on this GitHub-based site**.
+```
+
 :::{note}
 This is a note that you can use to convey important information.
 :::
